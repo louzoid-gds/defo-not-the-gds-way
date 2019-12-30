@@ -1,16 +1,5 @@
 # How to store source code
 
-At GDS, we follow the principles set out in the Service Manual for managing the code we write by:
-
-- [using version control](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding)
-- [making source code open](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable)
-
-You must [keep some data and code closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed), including:
-
-- keys and credentials
-- algorithms used to detect fraud
-- code or data that makes clear details of unannounced policy
-
 ## Working with Git
 
 ### Commit messages

@@ -1,10 +1,18 @@
 # Version control and deployments
 
+At GDS, we follow the principles set out in the Service Manual for managing the code we write by:
+
+- [using version control](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding)
+- [making source code open](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable)
+
 ## Publish open source code
 
 Wherever possible, we [make our source code open and reusable][]. This means other government departments and people in outside organisations can benefit from our work. We also maintain several open source projects developed for use on GOV.UK and with other work we do, such as the [Puppet module for go-audit][] or the [GDS Operations open source web site][].
 
-It’s not always appropriate to open code. There are situations [when you should keep some data and code closed][], for example when involving keys and security credentials.
+It’s not always appropriate to open code. There are situations [when you should keep some data and code closed][], for example:
+- keys and credentials
+- algorithms used to detect fraud
+- code or data that makes clear details of unannounced policy
 
 The Service Manual explains [how to open previously closed code and your responsibilities for maintaining open code][].
 
