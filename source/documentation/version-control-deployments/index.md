@@ -26,17 +26,9 @@ Your open source code project should:
 
 You could also provide a mailing list so people can discuss your project.
 
-## Licensing
-
-You should release any open code with a clear license for reuse. As repositories often include both documentation and code, we use 2 licences:
-
-* [MIT licence][]  for code and code samples in documentation
-* [Open Government Licence (OGL)][] for documentation
-
 [make our source code open and reusable]: https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable
 [Puppet module for go-audit]: https://github.com/gds-operations/puppet-goaudit
 [GDS Operations open source web site]: https://github.com/gds-operations/gds-operations.github.io
-[MIT licence]: https://opensource.org/licenses/MIT
 [Specification for CPAN Changes files]: https://metacpan.org/pod/CPAN::Changes::Spec
 [Semantic Versioning]: https://semver.org/spec/v2.0.0.html
 [PyPI - the Python Package Index]: https://pypi.python.org/pypi
@@ -47,7 +39,6 @@ You should release any open code with a clear license for reuse. As repositories
 [Go repository]: https://golang.org/CONTRIBUTORS
 [when you should keep some data and code closed]: https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed
 [how to open previously closed code and your responsibilities for maintaining open code]: https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable
-[Open Government Licence (OGL)]: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 [Go repository]: https://golang.org/CONTRIBUTORS
 [guidance for writing a README]: /version-control-deployments/readme-guidance
 [GOV.UK frontend toolkit]: https://github.com/alphagov/govuk_frontend_toolkit/issues
