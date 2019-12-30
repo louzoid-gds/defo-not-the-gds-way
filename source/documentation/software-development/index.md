@@ -2,7 +2,9 @@
 
 Software development at GDS
 
-- [choosing a programming language](software-development/choose-programming-lang)
-- [programming language style guides](software-development/style-guides)
-- [how to manage third party software dependencies](software-development/tracking-dependencies)
-- [how to name software products](software-development/naming-software)
+- [how to name software products](naming-software)
+- [choosing a programming language](choose-programming-lang)
+- [programming language style guides](style-guides)
+- [how to manage third party software dependencies](tracking-dependencies)
+- [building accessible services](accessibility)
+- [how to optimise frontend performance](optimise-frontend-perf)
