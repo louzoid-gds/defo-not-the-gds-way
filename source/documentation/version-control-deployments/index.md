@@ -34,6 +34,14 @@ Your open source code project should:
 
 You could also provide a mailing list so people can discuss your project.
 
+## More in this section
+
+- [how to store source code](source-code)
+- [using Pull Requests](pull-requests)
+- [writing READMEs](readme-guidance)
+- [Licensing](licensing)
+- [use continuous delivery](continuous-delivery)
+
 [make our source code open and reusable]: https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable
 [Puppet module for go-audit]: https://github.com/gds-operations/puppet-goaudit
 [GDS Operations open source web site]: https://github.com/gds-operations/gds-operations.github.io
