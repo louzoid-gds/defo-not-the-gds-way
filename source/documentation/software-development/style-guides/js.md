@@ -1,6 +1,6 @@
 # JavaScript
 
-## Contents
+### Contents
 
 * [Linting](#linting)
 * [Whitespace](#whitespace)
@@ -17,12 +17,12 @@
 * [Method arguments](#method-arguments)
 * [Let the project define the style](#let-the-project-define-the-style)
 
-## Linting
+### Linting
 
 We follow [standardjs](http://standardjs.com/), an opinionated JavaScript linter.
 All JavaScript files follow its conventions, and it typically runs on CI to ensure that new pull requests are in line with them.
 
-## Running standard manually
+### Running standard manually
 
 To check the whole codebase, run:
 
@@ -31,13 +31,13 @@ npm install --global standard
 standard
 ```
 
-### Running standard in your editor
+#### Running standard in your editor
 
 Easier than running standard manually is to install it as a plugin in your editor. This way, it will run automatically while you work, catching errors as they happen on a per-file basis.
 
 There are [official guides for most of the popular editors](http://standardjs.com/index.html#text-editor-plugins).
 
-### Why standard?
+#### Why standard?
 
 Linting rules can be a contentious subject, and a lot of them are down to personal preference. The core idea of standard is to be opinionated and limit the amount of initial bikeshedding discussions around which linting rules to pick, because in the end, it's not as important which rules you pick as it is to just be consistent about it. This is why we chose standard: because we want to be consistent about how we write code, but don't want to spend unnecessary time picking different rules (which all have valid points).
 
@@ -47,13 +47,13 @@ Standard is also [widely used (warning: large file)](https://github.com/feross/s
 
 If we decide to move away from it, standard is effectively just a preconfigured bundle of eslint, so it can easily be replaced by switching to a generic `.eslintrc` setup.
 
-## Whitespace
+### Whitespace
 
 Use soft tabs with a two space indent.
 
 **Why:** This follows the conventions used within our other projects.
 
-## Naming conventions
+### Naming conventions
 
 * Avoid single letter names. Be descriptive with your naming.
 
@@ -105,7 +105,7 @@ Use soft tabs with a two space indent.
   sets the appropriate affordances. It also follows the conventions of the
   standard library.
 
-## CoffeeScript
+### CoffeeScript
 
 Don't use CoffeeScript.
 
@@ -113,7 +113,7 @@ Don't use CoffeeScript.
 language for developers to learn. Using JavaScript gives us guaranteed
 performance characteristics and more well known support paths.
 
-## HTML class hooks
+### HTML class hooks
 
 When attaching JavaScript to the DOM use a `.js-` prefix for the HTML classes.
 
@@ -123,7 +123,7 @@ Eg `js-hidden` or `js-tab`.
 the HTML. It also makes it much easier to search in a project to remove old
 behaviour.
 
-## Styling elements
+### Styling elements
 
 Don't apply styles directly inside JavaScript. You should only ever apply CSS
 classes and style from there.
@@ -132,7 +132,7 @@ classes and style from there.
 concerns across different code bases. Also see [HTML class
 hooks](#html-class-hooks).
 
-## Strict mode
+### Strict mode
 
 You should add the `'use strict'` statement to the top of your module functions.
 
@@ -142,7 +142,7 @@ Strict mode converts many mistakes, such as undefined variables, into errors
 which makes it easier to determine why things aren't working. It also forces
 scope so you don't accidently export globals.
 
-## Modules
+### Modules
 
 Avoid assigning modules to the `window` global scope.
 
@@ -173,7 +173,7 @@ You get the benefits of [strict mode](#strict-mode) which include stopping your
 module from leaking variables into the global scope.
 The [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) should be wrapped with semicolons to ensure no issues with concatenation can happen.
 
-## Module structure
+### Module structure
 
 Module logic should be broken down into small testable functions. The functions
 should be exposed as methods on the module rather than hidden inside a closure.
@@ -216,7 +216,7 @@ functions makes it easier to unit test each of those functions to prove they
 performs as expected. Having those functions exposed as methods on the module
 makes it possible to test those functions in isolation.
 
-## jQuery
+### jQuery
 
 Avoid jQuery in new projects.
 
@@ -226,13 +226,13 @@ In older projects put together a plan to migrate away from jQuery.
 However, browser support for ES5 JavaScript is now widespread enough that a library like jQuery is unnecessary.
 The older versions of jQuery that we use have security vulnerabilities and are no longer maintained by the jQuery team.
 
-## Supporting older browsers
+### Supporting older browsers
 
 Use native web APIs where possible.
 
 Use [feature detection](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection) before [polyfilling](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill), to support older browsers.
 
-## Method arguments
+### Method arguments
 
 Favour named arguments in a object over sequential arguments.
 
