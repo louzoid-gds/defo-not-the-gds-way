@@ -31,15 +31,15 @@ Some good reasons to ignore a particular guideline include:
 
 We've got a consistent style for:
 
-- [CSS/Sass](css)
-- [Docker](docker)
-- [Go](go)
-- [HTML](programming-languages/html.html)
-- [Java](programming-languages/java.html)
-- [JavaScript](programming-languages/js.html)
-- [Node.js](programming-languages/nodejs/)
-- [Python](programming-languages/python/python.html)
-- [Ruby](programming-languages/ruby.html) (tested with [RSpec](../standards/testing-with-rspec.html))
+- [CSS/Sass](style-guides/css)
+- [Docker](style-guides/docker)
+- [Go](style-guides/go)
+- [HTML](style-guides/html)
+- [Java](style-guides/java)
+- [JavaScript](style-guides/js)
+- [Node.js](style-guides/node)
+- [Python](style-guides/pthon)
+- [Ruby](style-guides/ruby)
 
 Some of the guidelines in the style guides are codified in a
 [.editorconfig](editorconfig) file. Place a copy of this
