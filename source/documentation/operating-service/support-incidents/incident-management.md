@@ -158,7 +158,3 @@ Read the [GDS Technical Incident and Management Process](https://docs.google.com
 - routes to support
 - incident workflows - from request to resolution
 - roles in the Incident Team for P1 and P2
-
-## Contact Support Operations
-
-Contact the Support Operations team using the [#user-support Slack channel](https://gds.slack.com/messages/CADFJBDQU/details/#).
