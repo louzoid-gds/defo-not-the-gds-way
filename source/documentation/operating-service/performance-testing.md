@@ -38,7 +38,7 @@ Gatling is a popular load testing tool used by many teams at GDS including [GOV.
 
 When testing APIs or very simple web applications, [`vegeta`](https://github.com/tsenart/vegeta) is a tool used by [GOV.UK Notify](https:///www.notifications.service.gov.uk), and [GOV.UK PaaS](https://www.cloud.service.gov.uk), for automated performance testing. It can also be used interactively with [`angle-grinder`](https://github.com/rcoh/angle-grinder), or [`jaggr`](https://github.com/rs/jaggr) and [`jplot`](https://github.com/rs/jplot).
 
-## Configure your test environment
+### Configure your test environment
 
 Test environments must resemble your production environment as far as possible so tests are accurate. Isolate test environments to stop them affecting your production environment.
 
@@ -50,7 +50,7 @@ Perform practice runs of your tests to make sure they work as expected. You may 
 
 Start with a low level of concurrent users and increase them to your anticipated maximum. If there are no problems, increase the amount of traffic until you reach a breaking point in your system.
 
-## Document and share your results
+### Document and share your results
 
 When testing your service, record:
 
@@ -60,7 +60,7 @@ When testing your service, record:
 
 If your service meets your capacity requirements, document its upper limits and communicate them to the service owner.
 
-## Analyse your results
+### Analyse your results
 
 Testing tools should record the number of concurrent users, RPS, HTTP response codes and timings. These reports help determine your service’s maximum supported capacity. If your service cannot meet your requirements or you find problems, you’ll need to diagnose them.
 
@@ -86,7 +86,7 @@ Testing can help you tune serverless components’ performance. For example, Ama
 
 Performance testing will help determine if a function is taking longer to execute because it does not have enough memory allocated, or is over-provisioned with memory and costing more than necessary.
 
-## Further reading
+### Further reading
 
 To find our more about performance testing read:
 
