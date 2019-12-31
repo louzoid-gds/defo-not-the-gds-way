@@ -5,6 +5,20 @@ guidelines that developers should follow in order to make code more consistent
 across all Node.js projects, making it easy for developers to change projects
 or start new ones.
 
+* [Introduction](#introduction)
+* [Node versions](#node-versions)
+* [Source formatting and linting](#source-formatting-and-linting)
+* [Project directory structure](#project-directory-structure)
+* [Language constructs](#language-constructs)
+* [Errors](#errors)
+* [Node.js's HTTP server](#nodejs-http-server)
+* [Transpiling](#transpiling)
+* [Frameworks](#frameworks)
+* [Libraries](#libraries)
+* [Node Package Manager](#node-package-manager)
+* [Starting a new project](#starting-a-new-project)
+* [Further reading](#further-reading)
+
 ### Introduction
 
 The guidance set out here should be followed in conjunction with the advice on

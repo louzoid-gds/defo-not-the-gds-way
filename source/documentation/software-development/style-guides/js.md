@@ -22,7 +22,7 @@
 We follow [standardjs](http://standardjs.com/), an opinionated JavaScript linter.
 All JavaScript files follow its conventions, and it typically runs on CI to ensure that new pull requests are in line with them.
 
-### Running standard manually
+#### Running standard manually
 
 To check the whole codebase, run:
 
