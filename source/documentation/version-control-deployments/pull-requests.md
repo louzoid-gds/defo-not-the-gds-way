@@ -42,7 +42,7 @@ If you are not sure how to do any of this, please feel free to ask for help.
 Note: The canonical description of changes should always be in the individual
 commits - Pull Requests are an artefact of GitHub, and we would lose that data
 if we switched away. Please refer to the [commit message style
-guide](/standards/git.html).
+guide](/version-control-deployments/store-source-code/#working-with-git).
 
 ### Reviewing a request
 

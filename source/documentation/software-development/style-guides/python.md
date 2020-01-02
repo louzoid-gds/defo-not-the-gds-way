@@ -310,9 +310,9 @@ of how likely your proposal is of being accepted as a pull request even before y
 
 
 [github-gds-way]: https://github.com/alphagov/gds-way
-[gds-way-deps]: /standards/tracking-dependencies.html
+[gds-way-deps]: /software-development/tracking-dependencies
 [github-gds-way-readme-making-changes]: https://github.com/alphagov/gds-way/blob/master/README.md#making-changes
-[gds-way-code-style-guides]: /manuals/programming-languages.html#code-style-guides
+[gds-way-code-style-guides]: /software-development/style-guides
 [slack-python]: https://gds.slack.com/messages/python
 [linting]: linting.html
 [WikiCyclomatic_complexity]: https://en.wikipedia.org/wiki/Cyclomatic_complexity

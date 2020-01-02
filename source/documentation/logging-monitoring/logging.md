@@ -1,7 +1,7 @@
 # Setting up logging
 
 This page contains information on how to manage logs.  See
-the [logging recommendation](../standards/logging.html) for specific
+the [logging recommendation](/logging-monitoring/store-logs) for specific
 recommendations.
 
 ## Standard field names

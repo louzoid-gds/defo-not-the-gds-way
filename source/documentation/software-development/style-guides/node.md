@@ -343,7 +343,7 @@ If you find yourself looking for an <abbr
 title="model-view-controller">MVC</abbr> framework or if you need an <abbr
 title="object relationship manager">ORM</abbr> to manage records in a database,
 [you probably shouldn't be using Node.js in the first
-place](/standards/programming-languages.html#javascript).
+place](/software-development/style-guides/js).
 
 
 ### Libraries

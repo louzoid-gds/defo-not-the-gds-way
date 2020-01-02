@@ -13,7 +13,7 @@ Support Operations require GDS teams to use [Zendesk](https://www.zendesk.com/) 
 
 ### Support Operations dashboard
 
-The dashboard gives an easy way to show how Support Operations meet [service-level objectives](https://gds-way.cloudapps.digital/standards/slis.html) for both GOV.UK user support and GDS service teams. The dashboard shows metrics related to end users, for example service levels and the average amount of contact from users.
+The dashboard gives an easy way to show how Support Operations meet [service-level objectives](/logging-monitoring/slis) for both GOV.UK user support and GDS service teams. The dashboard shows metrics related to end users, for example service levels and the average amount of contact from users.
 
 The Support Operations dashboard pulls data from a variety of sources including Zendesk, web traffic on GOV.UK and service status pages like [GOV.UK Platform as a Service (PaaS)](https://status.cloud.service.gov.uk/).
 

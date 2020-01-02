@@ -59,13 +59,13 @@ Also consider managed solutions where possible. For example:
 
 This guidance is inline with the GDS Reliability Engineering strategic principle of [use fully managed cloud services by default][].
 
-[GDS supported programming languages]: /standards/programming-languages.html#content
+[GDS supported programming languages]: /software-development/choose-a-programming-language
 [managing software dependencies in the Service Manual]: https://www.gov.uk/service-manual/technology/managing-software-dependencies
-[programming language style guides]: /manuals/programming-languages.html
-[managing Python dependencies]: /manuals/programming-languages/python/python.html#dependencies
+[programming language style guides]: /software-development/style-guides
+[managing Python dependencies]: /software-development/style-guides/python
 [Snyk]: https://snyk.io/
 [monitor code dependencies]: https://snyk.io/features
-[continuous delivery]: https://gds-way.cloudapps.digital/standards/continuous-delivery.html
+[continuous delivery]: /version-control-deployments/continuous-delivery
 [Dependabot]: https://dependabot.com/
 [guidance on using Dependabot]: https://docs.publishing.service.gov.uk/manual/manage-ruby-dependencies.html
 [how the PRs raised should be reviewed]: https://docs.publishing.service.gov.uk/manual/merge-pr.html#dependabot

@@ -64,18 +64,18 @@ For more information refer to the:
 
 You can also read more on how the Reliability Engineering team [manages monitoring and alerts][].
 
-[service monitoring]: https://gds-way.cloudapps.digital/standards/monitoring.html
+[service monitoring]: /logging-monitoring/monitoring
 [Google Site Reliability Engineering (SRE)]: https://landing.google.com/sre/book.html
 [PagerDuty]: https://www.pagerduty.com
 [Zendesk]: https://www.zendesk.com
 [Smashing]: https://github.com/Smashing/smashing
 [BlinkenJS]: https://github.com/alphagov/blinkenjs
-[information about monitoring]: https://gds-way.cloudapps.digital/standards/monitoring.html
+[information about monitoring]: /logging-monitoring/monitoring
 [site reliability engineering]: https://landing.google.com/sre/book/index.html
 [more information on how to write alerts]: https://www.gov.uk/service-manual/technology/monitoring-the-status-of-your-service
 [include actionable information]: https://response.pagerduty.com/oncall/alerting_principles/#alert-content
 [Prometheus]: https://prometheus.io/
-[how to monitor your service]: https://gds-way.cloudapps.digital/standards/monitoring.html
+[how to monitor your service]: /logging-monitoring/monitoring
 [Amazon Elastic Container Service (Amazon ECS)]: https://aws.amazon.com/ecs/
 [Kubernetes]: https://kubernetes.io/
 [manages monitoring and alerts]: https://reliability-engineering.cloudapps.digital/monitoring-alerts.html

@@ -100,7 +100,7 @@ The set of languages we're comfortable supporting will change over time.
 
 If you want to use a new language, talk to your technical architect and the
 Deputy Director Technology Operations and then create
-a prototype. If it goes well you can [open a pull request](https://gds-way.cloudapps.digital/standards/pull-requests.html) to change this document.
+a prototype. If it goes well you can [open a pull request](/version-control-deployments/pull-requests) to change this document.
 
 If you're having problems using one of the languages we support, open a pull request to
 document the issues.

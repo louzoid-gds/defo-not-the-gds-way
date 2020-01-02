@@ -23,7 +23,7 @@ Set up a baseline of tests in your project’s alpha phase to identify any secur
 You should:
 
 - have an independent security audit in place
-- use established [logging techniques](https://gds-way.cloudapps.digital/manuals/logging.html)
+- use established [logging techniques](/logging-monitoring/logging)
 - encrypt data at rest as well as in transit
 - subscribe to and apply security patches
 - use query variables instead of plain text (stored procedure) to prevent [SQL injections](https://www.owasp.org/index.php/SQL_Injection)

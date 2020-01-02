@@ -4,7 +4,7 @@ Setting SLIs helps you set realistic objectives for your service and avoid over-
 
 - defining [Service Level Objectives (SLO)](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/#indicators-o8seIAcZ) for your service’s user journeys
 - helping prioritise your work and improve your infrastructure
-- creating metrics to help [classify incidents (P1-P4)](https://gds-way.cloudapps.digital/standards/incident-management.html)
+- creating metrics to help [classify incidents (P1-P4)](/operating-service/support-incidents/incident-management)
 - measuring how your system performs in the medium to long term
 
 The SLIs you define must be specific to your service users’ experience. Your SLIs should prompt your SLOs and inform your Service Level Agreement (SLA).
