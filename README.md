@@ -3,6 +3,8 @@ An attempt to alter the info architecture of the GDS Way to be more navigable.
 
 Based upon a fresh clone of the [GDS tech docs template](https://github.com/alphagov/tdt-documentation). Refer to this guidance to run locally.
 
+See this site in action at [louises-gds-way.cloudapps.digital](https://louises-gds-way.cloudapps.digital/)
+
 ## Why did I do this?
 The GDS Way is awesome but because of its organic growth, the structure of the content is far from ideal. This has resulted in some duplication and quality content buried.
 
