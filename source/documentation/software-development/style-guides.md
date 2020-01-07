@@ -1,4 +1,4 @@
-# Programming language style guides
+# Style guides
 
 You should read this guide alongside the
 [programming language recommendations](../choose-a-programming-language).
